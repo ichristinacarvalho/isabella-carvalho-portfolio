@@ -1,0 +1,6 @@
+@use 'variables' as *;
+
+//espaçamento seção
+@mixin espacamento-base($multiplicador: 5) {
+    padding: ($espacamento-base * $multiplicador) 10%;
+}

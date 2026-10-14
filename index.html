@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Conheça os projetos, competências e arquitetura de software de Isabella Carvalho, desenvolvedora Full Stack. Explore o código e entre em contato.">
+    <meta name="author" content="Isabella Carvalho">
+
+    <title>Isabella Carvalho | Desenvolvedora Full Stack</title>
+
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+
+    <!--Google Fontes: Inter e Plus Jakarta Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+    <!--SASS-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="header">
+
+        <div class="header__container">
+
+            <a class="header__logo" href="#hero">
+                <span>Isabella Carvalho.</span>
+            </a>
+
+            <nav class="header__nav" aria-label="Navegação principal">
+                <a class="header__link" href="#projetos">Projetos</a>
+                <a class="header__link" href="#sobre">Sobre & Stack</a>
+                <a class="header__link" href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!--Hero-->
+        <section id="hero" class="hero">
+
+            <div class="container hero__container">
+
+                <h1 class="hero__title">Desenvolvedora Full Stack criando soluções web do design ao deploy.</h1>
+
+                <p class="hero__text">Sou a Isabella Carvalho, Desenvolvedora Full Stack. Desenvolvo aplicações web
+                    funcionais e responsivas, unindo arquitetura limpa em JavaScript à integração de APIs e banco de
+                    dados.</p>
+
+                <div class="hero__actions">
+
+                    <a href="#projetos" class="hero__cta hero__cta--primary">Ver projetos</a>
+                    <a href="./assets/docs/Curriculo-Isabella-Carvalho.pdf" download="Curriculo-Isabella-Carvalho.pdf"
+                        target="_blank" rel="noopener noreferrer" class="hero__cta hero__cta--secondary">Baixar
+                        currículo</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Projetos-->
+        <section id="projetos" class="projetos">
+
+            <div class="container">
+
+                <h2 class="projetos__title">Projetos selecionados</h2>
+
+                <p class="projetos__intro">Soluções web completas que unem código semântico, consumo de APIs e atenção
+                    rigorosa à experiência do usuário.</p>
+
+                <div class="projetos__grid">
+
+                    <!--CARD 1: Atherian Tasks-->
+                    <article class="projeto-card">
+                        <div class="projeto-card__thumb">
+                            <img src="./assets/images/AtherianTasks-400.PNG" srcset="
+                                    ./assets/images/AtherianTasks-400.PNG   400w,
+                                    ./assets/images/AtherianTasks-800.PNG   800w,
+                                    ./assets/images/AtherianTasks-1200.PNG 1200w"
+                                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 380px"
+                                alt="Interface do gerenciador de tarefas gamificado Atherian Tasks"
+                                class="projeto-card__image" loading="lazy" decoding="async">
+                        </div>
+
+                        <div class="projeto-card__content">
+
+                            <div class="projeto-card__tags">
+                                <span class="tag">JavaScript (ES6+)</span>
+                                <span class="tag">Firebase Auth</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">Gamificação</span>
+                            </div>
+
+                            <h3 class="projeto-card__title">Atherian Tasks</h3>
+                            <p class="projeto-card__text">
+                                Gerenciador de tarefas que combina mecânicas de jogos e organização pessoal. Implementa
+                                controle de acessos com Firebase Auth, persistência em tempo real e regras dinâmicas de
+                                progressão do usuário.
+                            </p>
+
+                            <!-- Links de ação -->
+                            <div class="projeto-card__links">
+                                <a href="https://ichristinacarvalho.github.io/Atherian-Tasks-/" target="_blank"
+                                    rel="noopener noreferrer" class="projeto-card__link projeto-card__link--primary">
+                                    Ver Aplicação
+                                </a>
+
+                                <a href="https://github.com/ichristinacarvalho/Atherian-Tasks-.git" target="_blank"
+                                    rel="noopener noreferrer" class="projeto-card__link projeto-card__link--ghost">
+                                    GitHub &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!--CARD 2: Validador de Despacho Operativo-->
+                    <article class="projeto-card">
+                        <div class="projeto-card__thumb">
+                            <img src="./assets/images/EnergyD-400.PNG" srcset="
+                                    ./assets/images/EnergyD-400.PNG   400w,
+                                    ./assets/images/EnergyD-800.PNG   800w,
+                                    ./assets/images/EnergyD-1200.PNG 1200w"
+                                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 380px"
+                                alt="Interface do Validador de Despacho Operativo"
+                                class="projeto-card__image" loading="lazy" decoding="async">
+                        </div>
+
+                        <div class="projeto-card__content">
+
+                            <div class="projeto-card__tags">
+                                <span class="tag">JavaScript (ES6+)</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Web Storage</span>
+
+                            </div>
+
+                            <h3 class="projeto-card__title">Validador de Despacho Operativo</h3>
+                            <p class="projeto-card__text">
+                                Aplicação web desenvolvida para monitoramento e checagem de faixas operativas de
+                                despacho de energia.
+                                Implementa regras de negócio para análise de parâmetros críticos, validação em tempo
+                                real e
+                                persistência local de registros, priorizando confiabilidade de dados e usabilidade
+                                operacional.
+                            </p>
+
+                            <!-- Links de ação -->
+                            <div class="projeto-card__links">
+                                <a href="https://ichristinacarvalho.github.io/Validador-de-despacho-operativo/"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="projeto-card__link projeto-card__link--primary">
+                                    Ver Aplicação
+                                </a>
+
+                                <a href="https://github.com/ichristinacarvalho/Validador-de-despacho-operativo.git"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="projeto-card__link projeto-card__link--ghost">
+                                    GitHub &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!--CARD 3: Athera Code-->
+                    <article class="projeto-card">
+                        <div class="projeto-card__thumb">
+                            <img src="./assets/images/AtheraCode-400.PNG" srcset="
+                                    ./assets/images/AtheraCode-400.PNG   400w,
+                                    ./assets/images/AtheraCode-800.PNG   800w,
+                                    ./assets/images/AtheraCode-1200.PNG 1200w"
+                                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 380px"
+                                alt="Interface da landing page institucional Athera Code" class="projeto-card__image"
+                                loading="lazy" decoding="async">
+                        </div>
+
+                        <div class="projeto-card__content">
+
+                            <div class="projeto-card__tags">
+                                <span class="tag">HTML5 Semântico</span>
+                                <span class="tag">Sass</span>
+                                <span class="tag">Sass Modular</span>
+                                <span class="tag">Metodologia BEM</span>
+
+                            </div>
+
+                            <h3 class="projeto-card__title">Athera Code</h3>
+                            <p class="projeto-card__text">
+                                Landing page institucional para uma agência criativa de desenvolvimento web. Construída
+                                com semântica rigorosa e arquitetura de estilos em Sass modular (arquivos parciais
+                                compilados), aplicando a metodologia BEM para garantir alta manutenibilidade e design
+                                responsivo.
+                            </p>
+
+                            <!-- Links de ação -->
+                            <div class="projeto-card__links">
+                                <a href="https://ichristinacarvalho.github.io/athera-code/" target="_blank"
+                                    rel="noopener noreferrer" class="projeto-card__link projeto-card__link--primary">
+                                    Ver Aplicação
+                                </a>
+
+                                <a href="https://github.com/ichristinacarvalho/athera-code.git" target="_blank"
+                                    rel="noopener noreferrer" class="projeto-card__link projeto-card__link--ghost">
+                                    GitHub &rarr;
+                                </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Sobre-->
+        <section id="sobre" class="sobre">
+            <div class="container sobre__container">
+
+                <!--Coluna 1: BIOGRAFIA-->
+                <div class="sobre__bio">
+                    <h2 class="sobre__title">Sobre Mim</h2>
+
+                    <p class="sobre__text">
+                        Desenvolvedora Full Stack focada na criação de aplicações web funcionais, intuitivas e bem
+                        estruturadas. Unifico raciocínio lógico à atenção rigorosa aos padrões visuais, garantindo
+                        código semântico e alta fidelidade de interface.
+                    </p>
+
+                    <p class="sobre__text">
+                        Mantenho minha evolução técnica orientada a ecossistemas modernos de JavaScript, persistência de
+                        dados em nuvem, consumo de APIs e fluxos ágeis de desenvolvimento, sempre priorizando
+                        manutenibilidade e performance.
+                    </p>
+                </div>
+
+                <!--Coluna 2: COMPETÊNCIAS / TECH STACK-->
+                <div class="sobre__stack">
+                    <h3 class="sobre__subtitle">Tech Stack & Competências</h3>
+
+                    <!-- Categoria 1: Front-End -->
+                    <div class="stack-grupo">
+                        <h4 class="stack-grupo__titulo">Front-End</h4>
+                        <ul class="stack-grupo__lista">
+                            <li class="stack-grupo__badge">HTML5 Semântico</li>
+                            <li class="stack-grupo__badge">CSS3 / Sass (SCSS)</li>
+                            <li class="stack-grupo__badge">JavaScript (ES6+)</li>
+                            <li class="stack-grupo__badge">Bootstrap & Tailwind CSS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Categoria 2: Back-End & Serviços -->
+                    <div class="stack-grupo">
+                        <h4 class="stack-grupo__titulo">Back-End & Serviços</h4>
+                        <ul class="stack-grupo__lista">
+                            <li class="stack-grupo__badge">Firebase (Firestore & Auth)</li>
+                            <li class="stack-grupo__badge">Consumo de APIs REST</li>
+                        </ul>
+                    </div>
+
+                    <!-- Categoria 3: Ferramentas & Fluxos -->
+                    <div class="stack-grupo">
+                        <h4 class="stack-grupo__titulo">Ferramentas & Fluxos</h4>
+                        <ul class="stack-grupo__lista">
+                            <li class="stack-grupo__badge">Git & GitHub</li>
+                            <li class="stack-grupo__badge">Automações com n8n</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contato-->
+        <section id="contato" class="contato">
+            <div class="container contato__container">
+
+                <h2 class="contato__title">Vamos conversar?</h2>
+                <p class="contato__intro">
+                    Disponível para oportunidades em desenvolvimento Full Stack e projetos colaborativos. Fique à
+                    vontade para entrar em contato.
+                </p>
+
+                <!-- Grade de canais diretos -->
+                <div class="contato__cards">
+
+                    <!-- E-mail -->
+                    <a href="mailto:ichristinacarvalho@gmail.com" class="contato-card">
+                        <span class="contato-card__rotulo">E-mail:</span>
+                        <span class="contato-card__valor">ichristinacarvalho@gmail.com</span>
+                    </a>
+
+                    <!-- WhatsApp 
+                    <a href="https://wa.me/55" target="_blank" rel="noopener noreferrer" class="contato-card">
+                        <span class="contato-card__rotulo">WhatsApp</span>
+                        <span class="contato-card__valor">Iniciar conversa &rarr;</span>
+                    </a> -->
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/isabella-christina-ba4949419/" target="_blank"
+                        rel="noopener noreferrer" class="contato-card">
+                        <span class="contato-card__rotulo">LinkedIn:</span>
+                        <span class="contato-card__valor">in/isabella-christina</span>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/ichristinacarvalho" target="_blank" rel="noopener noreferrer"
+                        class="contato-card">
+                        <span class="contato-card__rotulo">GitHub:</span>
+                        <span class="contato-card__valor">github.com/ichristinacarvalho</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container footer__container">
+
+            <p class="footer__copy">
+                &copy; 2026 Isabella Carvalho. Construído com HTML5 semântico e Sass modular.
+            </p>
+
+            <a href="#hero" class="footer__topo" aria-label="Voltar ao início da página">
+                Voltar ao topo &uarr;
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

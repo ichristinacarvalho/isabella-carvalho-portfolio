@@ -1,0 +1,54 @@
+@use 'variables' as *;
+
+//reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//html
+html {
+    scroll-behavior: smooth;
+}
+
+//estilo global
+body {
+    font-family: $fonte-padrao;
+    background-color: $cor-bg-claro;
+    color: $cor-texto-escuro;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+//titulos
+h1{
+    font-family: $fonte-destaque;
+    font-weight: 700;
+    color: $cor-branco;
+    line-height: 1.2;
+    font-size: 90px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:$fonte-destaque;
+    font-weight: 700;
+    font-size: 70px;
+    color: $cor-texto-escuro;
+    line-height: 1.2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; // Impede que os itens se espalhem infinitamente em monitores grandes
+    margin-left: auto; // Centraliza na horizontal
+    margin-right: auto; // Centraliza na horizontal
+    padding-left: 1.5rem; // Espaçamento de segurança para não colar na borda esquerda
+    padding-right: 1.5rem; // Espaçamento de segurança para não colar na borda direita
+}
