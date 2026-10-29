@@ -29,7 +29,6 @@ Alguns dos principais projetos que compõem o meu portfólio:
 ## 📬 Contato
 Fique à vontade para entrar em contato, conferir meus repositórios ou acompanhar minha evolução profissional:
 
-* **GitHub:** [ichristinacarvalho](https://github.com/ichristinacarvalho)
 * **LinkedIn:** [ichristinacarvalho](https://www.linkedin.com/in/isabella-christina-ba4949419/)
 
 ---
